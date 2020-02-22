@@ -28,11 +28,14 @@ ul {
   margin-bottom: 0;
   padding-left: 0; }
 
+button {
+  border: none;
+  border-radius: 2px;
+  font: 200 1.125rem "RobotoLight", sans-serif;
+  padding: 1rem 1.75rem; }
+
 p {
   margin-bottom: 0; }
-
-.header-top__brand--title, .header-top__brand--subtitle {
-  float: right; }
 
 .header-top__brand--title {
   font-family: "RobotoRegular", sans-serif;
@@ -66,14 +69,12 @@ p {
   margin-top: 1.1875rem; }
   .header-bottom-navbar__item {
     display: block;
-    font-family: "RobotoLight", sans-serif;
-    font-size: 22px;
-    max-height: 58px; }
+    font: 200 1.375rem "RobotoLight", sans-serif; }
     .header-bottom-navbar__item > a {
       color: white;
       display: block;
-      padding-bottom: 0.8125rem;
-      padding-top: 0.75rem;
+      padding-bottom: 1rem;
+      padding-top: 0.8125rem;
       text-decoration: none; }
     .header-bottom-navbar__item:hover {
       background-color: #3b8aea; }
@@ -83,7 +84,8 @@ p {
   background: -o-linear-gradient(left, rgba(246, 248, 250, 0.7), rgba(154, 196, 202, 0.7)), url("../img/slider-bg-1.png") bottom right 60% no-repeat;
   background: linear-gradient(90deg, rgba(246, 248, 250, 0.7), rgba(154, 196, 202, 0.7)), url("../img/slider-bg-1.png") bottom right 60% no-repeat;
   padding-bottom: 7.25rem;
-  padding-top: 8.625rem; }
+  padding-top: 8.625rem;
+  position: relative; }
 
 .header-slider__title, .header-slider__text {
   color: #000; }
@@ -97,13 +99,20 @@ p {
 
 .header-slider__button {
   background-color: #4d9dfd;
-  border: none;
-  border-radius: 2px;
   color: white;
-  font-family: "RobotoLight", sans-serif;
-  font-size: 18px;
-  margin-top: 3.25rem;
-  padding: 0.875rem 1.75rem; }
+  margin-top: 3.25rem; }
+
+.slider-dots {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 2rem;
+  position: absolute;
+  text-align: center; }
+
+.slider-dot {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem; }
 
 /*==========  Desktop First  ==========*/
 /*==========  Mobile First  ==========*/

@@ -16,8 +16,11 @@ ul
 	margin-bottom: 0
 	padding-left: 0
 
-// li
-// 	display: inline-block
+button
+	border: none
+	border-radius: 2px
+	font: 200 1.125rem $robotoLight
+	padding: 1rem 1.75rem
 
 p
 	margin-bottom: 0
@@ -33,9 +36,9 @@ p
 
 .header-top
 	&__brand
-		&--title,
-		&--subtitle
-			float: right
+		// &--title,
+		// &--subtitle
+		// 	float: right
 
 		&--title
 			font-family: $robotoRegular
@@ -74,15 +77,14 @@ p
 
 	&__item
 		display: block
-		font-family: $robotoLight
-		font-size: 22px
-		max-height: 58px
+		font: 200 1.375rem $robotoLight
+		// max-height: 58px
 
 		& > a
 			color: $text1
 			display: block
-			padding-bottom: 0.8125rem
-			padding-top: 0.75rem
+			padding-bottom: 1rem
+			padding-top: 0.8125rem
 			text-decoration: none
 
 		&:hover
@@ -93,6 +95,7 @@ p
 	url("../img/slider-bg-1.png") bottom right 60% no-repeat
 	padding-bottom: 7.25rem
 	padding-top: 8.625rem
+	position: relative
 
 .header-slider
 	&__title,
@@ -111,15 +114,20 @@ p
 
 	&__button
 		background-color: $accent
-		border: none
-		border-radius: 2px
 		color: $text1
-		font-family: $robotoLight
-		font-size: 18px
 		margin-top: 3.25rem
-		padding: 0.875rem 1.75rem
 
+.slider-dots
+	bottom: 0
+	left: 0
+	right: 0
+	margin-bottom: 2rem
+	position: absolute
+	text-align: center
 
+.slider-dot
+	margin-left: 0.5rem
+	margin-right: 0.5rem
 
 
 
