@@ -31,24 +31,24 @@ ul {
 p {
   margin-bottom: 0; }
 
-.header-top-wrapper {
-  margin-top: 1.25rem; }
-
 .header-top__brand--title, .header-top__brand--subtitle {
   float: right; }
 
 .header-top__brand--title {
   font-family: "RobotoRegular", sans-serif;
   font-size: 33px;
+  line-height: 30px;
   text-transform: uppercase; }
 
 .header-top__brand--subtitle {
   font-family: "RobotoLight", sans-serif;
-  font-size: 11px; }
+  font-size: 11px;
+  line-height: 18px; }
 
 .header-top__occupation {
   font-family: "RobotoLight", sans-serif;
-  font-size: 16px; }
+  font-size: 16px;
+  line-height: 24px; }
 
 .header-top__contacts {
   font-size: 14px; }
@@ -62,17 +62,48 @@ p {
   background-color: #4d9dfd;
   text-align: center; }
 
-.header-bottom-navbar__item {
-  font-family: "RobotoLight", sans-serif;
-  font-size: 22px; }
-  .header-bottom-navbar__item > a {
-    color: white;
+.header-bottom-navbar {
+  margin-top: 1.1875rem; }
+  .header-bottom-navbar__item {
     display: block;
-    height: 58px;
-    text-decoration: none;
-    vertical-align: center; }
-  .header-bottom-navbar__item.active {
-    background-color: #3b8aea; }
+    font-family: "RobotoLight", sans-serif;
+    font-size: 22px;
+    max-height: 58px; }
+    .header-bottom-navbar__item > a {
+      color: white;
+      display: block;
+      padding-bottom: 0.8125rem;
+      padding-top: 0.75rem;
+      text-decoration: none; }
+    .header-bottom-navbar__item:hover {
+      background-color: #3b8aea; }
+
+.header-slider-wrapper {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(246, 248, 250, 0.7)), to(rgba(154, 196, 202, 0.7))), url("../img/slider-bg-1.png") bottom right 60% no-repeat;
+  background: -o-linear-gradient(left, rgba(246, 248, 250, 0.7), rgba(154, 196, 202, 0.7)), url("../img/slider-bg-1.png") bottom right 60% no-repeat;
+  background: linear-gradient(90deg, rgba(246, 248, 250, 0.7), rgba(154, 196, 202, 0.7)), url("../img/slider-bg-1.png") bottom right 60% no-repeat;
+  padding-bottom: 7.25rem;
+  padding-top: 8.625rem; }
+
+.header-slider__title, .header-slider__text {
+  color: #000; }
+
+.header-slider__title {
+  font: 400 2rem "RobotoRegular", sans-serif; }
+
+.header-slider__text {
+  font-family: 200 1.125rem/1.5rem "RobotoLight", sans-serif;
+  margin-top: 1.5rem; }
+
+.header-slider__button {
+  background-color: #4d9dfd;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-family: "RobotoLight", sans-serif;
+  font-size: 18px;
+  margin-top: 3.25rem;
+  padding: 0.875rem 1.75rem; }
 
 /*==========  Desktop First  ==========*/
 /*==========  Mobile First  ==========*/
