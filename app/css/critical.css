@@ -31,5 +31,43 @@ ul {
 p {
   margin-bottom: 0; }
 
+.header-top-wrapper {
+  margin-top: 1.25rem; }
+
+.header-top__brand--title, .header-top__brand--subtitle {
+  float: right; }
+
+.header-top__brand--title {
+  font-family: "RobotoRegular", sans-serif;
+  font-size: 33px;
+  text-transform: uppercase; }
+
+.header-top__brand--subtitle {
+  font-family: "RobotoLight", sans-serif;
+  font-size: 11px; }
+
+.header-top__occupation {
+  font-family: "RobotoLight", sans-serif;
+  font-size: 16px; }
+
+.header-top__contacts {
+  font-size: 14px; }
+  .header-top__contacts--number {
+    font-family: "RobotoBold", sans-serif; }
+  .header-top__contacts--destination {
+    color: #a8a8a8;
+    font-family: "RobotoRegular", sans-serif; }
+
+.header-bottom-wrapper {
+  background-color: #4d9dfd;
+  text-align: center; }
+
+.header-bottom-navbar__item {
+  font-family: "RobotoLight", sans-serif;
+  font-size: 22px; }
+  .header-bottom-navbar__item > a {
+    color: white;
+    text-decoration: none; }
+
 /*==========  Desktop First  ==========*/
 /*==========  Mobile First  ==========*/

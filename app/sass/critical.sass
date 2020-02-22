@@ -4,6 +4,7 @@
 // common
 
 body
+	// font-family: $default-font
 	min-width: 320px
 	overflow-x: hidden
 
@@ -22,14 +23,56 @@ p
 // common
 // header
 
+.section-header
+
+.header-top-wrapper
+	margin-top: 1.25rem
+
+.header-top
+	&__brand
+		&--title,
+		&--subtitle
+			float: right
+
+		&--title
+			font-family: $robotoRegular
+			font-size: 33px
+			text-transform: uppercase
+
+		&--subtitle
+			font-family: $robotoLight
+			font-size: 11px
+
+	&__occupation
+		font-family: $robotoLight
+		font-size: 16px
+
+	&__contacts
+		font-size: 14px
+
+		&--number
+			font-family: $robotoBold
+
+		&--destination
+			color: $destination
+			font-family: $robotoRegular
+
+.header-bottom-wrapper
+	background-color: $accent
+	text-align: center
+
+.header-bottom-navbar
+	&__items
 
 
 
+	&__item
+		font-family: $robotoLight
+		font-size: 22px
 
-
-
-
-
+		& > a
+			color: $text1
+			text-decoration: none
 
 
 
