@@ -29,10 +29,10 @@ ul {
   padding-left: 0; }
 
 button {
-  border: none;
+  background-color: white;
+  border: 1px solid #4d9dfd;
   border-radius: 2px;
-  font: 200 1.125rem "RobotoLight", sans-serif;
-  padding: 1rem 1.75rem; }
+  font: 200 1.125rem "RobotoLight", sans-serif; }
 
 p {
   margin-bottom: 0; }
@@ -83,7 +83,7 @@ p {
   background: -webkit-gradient(linear, left top, right top, from(rgba(246, 248, 250, 0.7)), to(rgba(154, 196, 202, 0.7))), url("../img/slider-bg-1.png") bottom right 60% no-repeat;
   background: -o-linear-gradient(left, rgba(246, 248, 250, 0.7), rgba(154, 196, 202, 0.7)), url("../img/slider-bg-1.png") bottom right 60% no-repeat;
   background: linear-gradient(90deg, rgba(246, 248, 250, 0.7), rgba(154, 196, 202, 0.7)), url("../img/slider-bg-1.png") bottom right 60% no-repeat;
-  padding-bottom: 7.25rem;
+  padding-bottom: 7.125rem;
   padding-top: 8.625rem;
   position: relative; }
 
@@ -100,7 +100,8 @@ p {
 .header-slider__button {
   background-color: #4d9dfd;
   color: white;
-  margin-top: 3.25rem; }
+  margin-top: 3.25rem;
+  padding: 1rem 1.75rem; }
 
 .slider-dots {
   bottom: 0;
@@ -113,6 +114,41 @@ p {
 .slider-dot {
   margin-left: 0.5rem;
   margin-right: 0.5rem; }
+
+.section-services1 {
+  padding-bottom: 2.5rem;
+  padding-top: 1.5rem; }
+
+.services1-wrapper__title {
+  font: 400 1.875rem "RobotoRegular", sans-serif;
+  position: relative; }
+  .services1-wrapper__title::after {
+    border-bottom: 3px solid #4d9dfd;
+    top: 4rem;
+    left: 0;
+    content: '';
+    position: absolute;
+    width: 4rem; }
+
+.services1__items {
+  margin-top: 3.75rem; }
+
+.services1__item--title {
+  font: 400 1.125rem "RobotoRegular", sans-serif;
+  margin-top: 1.5rem; }
+
+.services1__item--text {
+  font: 200 14px/24px "RobotoLight", sans-serif;
+  margin-top: 0.875rem; }
+
+.services1__item--price {
+  font: 500 18px/24px "RobotoMedium", sans-serif;
+  margin-top: 1rem; }
+
+.services1__item--button {
+  color: #4d9dfd;
+  margin-top: 1.25rem;
+  padding: 0.825rem 1.5rem; }
 
 /*==========  Desktop First  ==========*/
 /*==========  Mobile First  ==========*/

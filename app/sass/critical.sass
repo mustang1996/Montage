@@ -17,10 +17,10 @@ ul
 	padding-left: 0
 
 button
-	border: none
+	background-color: $text1
+	border: 1px solid $accent
 	border-radius: 2px
 	font: 200 1.125rem $robotoLight
-	padding: 1rem 1.75rem
 
 p
 	margin-bottom: 0
@@ -93,7 +93,7 @@ p
 .header-slider-wrapper
 	background: linear-gradient(90deg, rgba(246, 248, 250, 0.7), rgba(154, 196, 202, 0.7)),
 	url("../img/slider-bg-1.png") bottom right 60% no-repeat
-	padding-bottom: 7.25rem
+	padding-bottom: 7.125rem
 	padding-top: 8.625rem
 	position: relative
 
@@ -116,6 +116,7 @@ p
 		background-color: $accent
 		color: $text1
 		margin-top: 3.25rem
+		padding: 1rem 1.75rem
 
 .slider-dots
 	bottom: 0
@@ -129,10 +130,49 @@ p
 	margin-left: 0.5rem
 	margin-right: 0.5rem
 
-
-
 // header
 // services1
+
+.section-services1
+	padding-bottom: 2.5rem
+	padding-top: 1.5rem
+
+.services1-wrapper
+	&__title
+		font: 400 1.875rem $robotoRegular
+		position: relative
+
+		&::after
+			border-bottom: 3px solid $accent
+			top: 4rem
+			left: 0
+			content: ''
+			position: absolute
+			width: 4rem
+
+.services1__items
+	margin-top: 3.75rem
+
+.services1__item
+	&--img
+
+	&--title
+		font: 400 1.125rem $robotoRegular
+		margin-top: 1.5rem
+
+	&--text
+		font: 200 14px/24px $robotoLight
+		margin-top: 0.875rem
+
+	&--price
+		font: 500 18px/24px $robotoMedium
+		margin-top: 1rem
+
+	&--button
+		color: $accent
+		margin-top: 1.25rem
+		padding: 0.825rem 1.5rem
+
 // services1
 // advantages
 // advantages
