@@ -67,7 +67,12 @@ p {
   font-size: 22px; }
   .header-bottom-navbar__item > a {
     color: white;
-    text-decoration: none; }
+    display: block;
+    height: 58px;
+    text-decoration: none;
+    vertical-align: center; }
+  .header-bottom-navbar__item.active {
+    background-color: #3b8aea; }
 
 /*==========  Desktop First  ==========*/
 /*==========  Mobile First  ==========*/
