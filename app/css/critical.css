@@ -37,24 +37,17 @@ button {
 p {
   margin-bottom: 0; }
 
-.header-top__brand--title {
-  font-family: "RobotoRegular", sans-serif;
-  font-size: 33px;
-  line-height: 30px;
-  text-transform: uppercase; }
-
-.header-top__brand--subtitle {
-  font-family: "RobotoLight", sans-serif;
-  font-size: 11px;
-  line-height: 18px; }
-
 .header-top__occupation {
   font-family: "RobotoLight", sans-serif;
-  font-size: 16px;
-  line-height: 24px; }
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 1.5; }
 
 .header-top__contacts {
-  font-size: 14px; }
+  font-family: "RobotoLight", sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: normal; }
   .header-top__contacts--number {
     font-family: "RobotoBold", sans-serif; }
   .header-top__contacts--destination {

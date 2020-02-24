@@ -36,28 +36,31 @@ p
 
 .header-top
 	&__brand
-		// &--title,
-		// &--subtitle
+		&--text
 		// 	float: right
 
-		&--title
-			font-family: $robotoRegular
-			font-size: 33px
-			line-height: 30px
-			text-transform: uppercase
+			&__title
+				+roboto(Regular, 2.0625rem, 400, 0.9)
+				// font-family: $robotoRegular
+				// font-size: 33px
+				// line-height: 30px
+				text-transform: uppercase
 
-		&--subtitle
-			font-family: $robotoLight
-			font-size: 11px
-			line-height: 18px
+			&__subtitle
+				+roboto(Light, 0.6875rem, 200, 1.6)
+				// font-family: $robotoLight
+				// font-size: 11px
+				// line-height: 18px
 
 	&__occupation
-		font-family: $robotoLight
-		font-size: 16px
-		line-height: 24px
+		+roboto(Light, 1rem, 200, 1.5)
+		// font-family: $robotoLight
+		// font-size: 16px
+		// line-height: 24px
 
 	&__contacts
-		font-size: 14px
+		+roboto(Light, 14px, 200)
+		// font-size: 14px
 
 		&--number
 			font-family: $robotoBold

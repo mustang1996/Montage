@@ -10,6 +10,16 @@ $robotoRegular: "RobotoRegular", sans-serif
 $robotoMedium: "RobotoMedium", sans-serif
 $robotoBold: "RobotoBold", sans-serif
 
+
+
+=roboto($name, $size, $weight, $height: normal)
+  font-family: "Roboto" + $name, sans-serif
+  font-size: $size
+  font-weight: $weight
+  line-height: $height
+
+
+
 // Customization Bootstrap vars from "app/libs/bootstrap/scss/_variables.scss"
 $grid-gutter-width: 30px
 $grid-columns: 12
