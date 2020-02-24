@@ -17,10 +17,19 @@ ul
 	padding-left: 0
 
 button
-	background-color: $text1
+	+roboto(Light, 1rem, 200)
 	border: 1px solid $accent
 	border-radius: 2px
-	font: 200 1.125rem $robotoLight
+
+.button-1
+	background-color: $accent
+	color: $text1
+	padding: 1rem 1.75rem
+
+.button-2
+	background-color: $text1
+	color: $accent
+	padding: 0.825rem 1.5rem
 
 p
 	margin-bottom: 0
@@ -37,13 +46,10 @@ p
 .header-top
 	&__brand
 		&--text
-		// 	float: right
+			// float: right
 
 			&__title
 				+roboto(Regular, 2.0625rem, 400, 0.9)
-				// font-family: $robotoRegular
-				// font-size: 33px
-				// line-height: 30px
 				text-transform: uppercase
 
 			&__subtitle
@@ -59,15 +65,17 @@ p
 		// line-height: 24px
 
 	&__contacts
-		+roboto(Light, 14px, 200)
 		// font-size: 14px
 
 		&--number
-			font-family: $robotoBold
+			+roboto(Bold, 0.875rem, 700)
+			color: $base
+			// font-family: $robotoBold
 
 		&--destination
+			+roboto(Regular, 0.875rem, 400)
 			color: $destination
-			font-family: $robotoRegular
+			// font-family: $robotoRegular
 
 .header-bottom-wrapper
 	background-color: $accent
@@ -93,14 +101,14 @@ p
 		&:hover
 			background-color: #3b8aea
 
-.header-slider-wrapper
+.main-slider-wrapper
 	background: linear-gradient(90deg, rgba(246, 248, 250, 0.7), rgba(154, 196, 202, 0.7)),
 	url("../img/slider-bg-1.png") bottom right 60% no-repeat
 	padding-bottom: 7.125rem
 	padding-top: 8.625rem
 	position: relative
 
-.header-slider
+.main-slider
 	&__title,
 	&__text
 		color: $base
@@ -116,10 +124,7 @@ p
 		margin-top: 1.5rem
 
 	&__button
-		background-color: $accent
-		color: $text1
 		margin-top: 3.25rem
-		padding: 1rem 1.75rem
 
 .slider-dots
 	bottom: 0
@@ -172,9 +177,7 @@ p
 		margin-top: 1rem
 
 	&--button
-		color: $accent
 		margin-top: 1.25rem
-		padding: 0.825rem 1.5rem
 
 // services1
 // advantages

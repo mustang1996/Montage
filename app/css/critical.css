@@ -6,9 +6,15 @@
 
 @font-face {
   font-family: "RobotoRegular";
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   src: url("../fonts/Roboto/roboto-regular-webfont.woff2") format("woff2"), url("../fonts/Roboto/roboto-regular-webfont.woff") format("woff"), url("../fonts/Roboto/roboto-regular-webfont.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RobotoMedium";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/Roboto/roboto-medium-webfont.woff2") format("woff2"), url("../fonts/Roboto/roboto-medium-webfont.woff") format("woff"), url("../fonts/Roboto/roboto-medium-webfont.ttf") format("truetype"); }
 
 @font-face {
   font-family: "RobotoBold";
@@ -29,13 +35,38 @@ ul {
   padding-left: 0; }
 
 button {
-  background-color: white;
+  font-family: "RobotoLight", sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: normal;
   border: 1px solid #4d9dfd;
-  border-radius: 2px;
-  font: 200 1.125rem "RobotoLight", sans-serif; }
+  border-radius: 2px; }
+
+.button-1 {
+  background-color: #4d9dfd;
+  color: white;
+  padding: 1rem 1.75rem; }
+
+.button-2 {
+  background-color: white;
+  color: #4d9dfd;
+  padding: 0.825rem 1.5rem; }
 
 p {
   margin-bottom: 0; }
+
+.header-top__brand--text__title {
+  font-family: "RobotoRegular", sans-serif;
+  font-size: 2.0625rem;
+  font-weight: 400;
+  line-height: 0.9;
+  text-transform: uppercase; }
+
+.header-top__brand--text__subtitle {
+  font-family: "RobotoLight", sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 200;
+  line-height: 1.6; }
 
 .header-top__occupation {
   font-family: "RobotoLight", sans-serif;
@@ -43,16 +74,19 @@ p {
   font-weight: 200;
   line-height: 1.5; }
 
-.header-top__contacts {
-  font-family: "RobotoLight", sans-serif;
-  font-size: 14px;
-  font-weight: 200;
-  line-height: normal; }
-  .header-top__contacts--number {
-    font-family: "RobotoBold", sans-serif; }
-  .header-top__contacts--destination {
-    color: #a8a8a8;
-    font-family: "RobotoRegular", sans-serif; }
+.header-top__contacts--number {
+  font-family: "RobotoBold", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: normal;
+  color: #000; }
+
+.header-top__contacts--destination {
+  font-family: "RobotoRegular", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: normal;
+  color: #a8a8a8; }
 
 .header-bottom-wrapper {
   background-color: #4d9dfd;
@@ -72,7 +106,7 @@ p {
     .header-bottom-navbar__item:hover {
       background-color: #3b8aea; }
 
-.header-slider-wrapper {
+.main-slider-wrapper {
   background: -webkit-gradient(linear, left top, right top, from(rgba(246, 248, 250, 0.7)), to(rgba(154, 196, 202, 0.7))), url("../img/slider-bg-1.png") bottom right 60% no-repeat;
   background: -o-linear-gradient(left, rgba(246, 248, 250, 0.7), rgba(154, 196, 202, 0.7)), url("../img/slider-bg-1.png") bottom right 60% no-repeat;
   background: linear-gradient(90deg, rgba(246, 248, 250, 0.7), rgba(154, 196, 202, 0.7)), url("../img/slider-bg-1.png") bottom right 60% no-repeat;
@@ -80,21 +114,18 @@ p {
   padding-top: 8.625rem;
   position: relative; }
 
-.header-slider__title, .header-slider__text {
+.main-slider__title, .main-slider__text {
   color: #000; }
 
-.header-slider__title {
+.main-slider__title {
   font: 400 2rem "RobotoRegular", sans-serif; }
 
-.header-slider__text {
+.main-slider__text {
   font-family: 200 1.125rem/1.5rem "RobotoLight", sans-serif;
   margin-top: 1.5rem; }
 
-.header-slider__button {
-  background-color: #4d9dfd;
-  color: white;
-  margin-top: 3.25rem;
-  padding: 1rem 1.75rem; }
+.main-slider__button {
+  margin-top: 3.25rem; }
 
 .slider-dots {
   bottom: 0;
@@ -139,9 +170,7 @@ p {
   margin-top: 1rem; }
 
 .services1__item--button {
-  color: #4d9dfd;
-  margin-top: 1.25rem;
-  padding: 0.825rem 1.5rem; }
+  margin-top: 1.25rem; }
 
 /*==========  Desktop First  ==========*/
 /*==========  Mobile First  ==========*/
